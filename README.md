@@ -17,6 +17,20 @@ This project includes three meaningful functional modules:
 
 ## 4. How to Install and Run
 Follow these steps to run the project on your local machine:
+
+### Prerequisites
+* Ensure **Python 3** is installed on your system.
+
+### Installation
+1.  Clone or download this repository.
+2.  Open your terminal/command prompt.
+3.  Navigate to the project directory:
+    ```bash
+    cd Gene-Tool-DNA-Sequences-Analyzer
+    ```
+
+### Running the Application
+Run the main script using Python:
 Once the program is running, follow the on-screen menu:
 Test GC Content:
 Select Option 1.
@@ -36,18 +50,5 @@ Expected Output: CGAT
 Test Error Handling:
 Enter random text like HELLO.
 Expected Output: ERROR: Invalid DNA sequence.
-### Prerequisites
-* Ensure **Python 3** is installed on your system.
-
-### Installation
-1.  Clone or download this repository.
-2.  Open your terminal/command prompt.
-3.  Navigate to the project directory:
-    ```bash
-    cd Gene-Tool-DNA-Sequences-Analyzer
-    ```
-
-### Running the Application
-Run the main script using Python:
 ```bash
 python main.py
